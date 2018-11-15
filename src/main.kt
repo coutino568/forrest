@@ -1,7 +1,19 @@
 
 fun main(args: Array<String>) {
-    var Tom = ForrestGump()
+
+
+        var chocolates=arrayListOf<Chocolate>(
+            Chocolate(1,"Hershey"),
+            Chocolate(2, "Toblerone")
+
+    )
+
+    var Tom = ForrestGump(BoxOfChocolates(chocolates))
+
+   // var cajita= BoxOfChoclates()
     var continuar: Boolean =true
+
+
     var opcion=""
     while (continuar== true){
         println("1)Agarrar un chocolate \n2)Salir\n")

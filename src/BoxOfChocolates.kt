@@ -1,14 +1,17 @@
 import java.util.*
 
-public class BoxOfChoclates {
-    var chocolates :ArrayList<Chocolate> =ArrayList();
+public class BoxOfChocolates(var chocolates: ArrayList<Chocolate> ) {
+//    var chocolates =arrayListOf<Chocolate>(
+//            Chocolate(1,"Hershey"),
+//            Chocolate(2, "Toblerone")
+//
+//    )
 
     fun isBoxEmpy():Boolean{
-        if (chocolates.size==0){
-            return true
-        }else {return true}
+        return chocolates.isEmpty()
 
     }
+    //for
     // return buffer.removeAt(Random().nextInt(bufer,size)}
     fun extract():Chocolate{
        // var random position=math.random
